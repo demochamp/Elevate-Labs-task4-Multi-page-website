@@ -1,0 +1,57 @@
+/* Global page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Common box style for layout */
+.box {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Navigation bar container */
+.nav-flex {
+    display: flex;                  /* Enables flexbox */
+    justify-content: center;        /* Centers nav items */
+    gap: 30px;                      /* Space between links */
+    flex-wrap: wrap;                /* Wraps on small screens */
+}
+
+/* Navigation links */
+.nav-flex a {
+    text-decoration: none;          /* Removes underline */
+    color: #0077cc;                 /* Default text color */
+    font-weight: bold;
+    padding: 8px 16px;              /* Button-like spacing */
+    border-radius: 6px;             /* Smooth corners */
+    transition: 0.3s ease;          /* Smooth hover effect */
+}
+
+/* Hover effect */
+.nav-flex a:hover {
+    background-color: #0077cc;      /* Blue background on hover */
+    color: white;                   /* White text on hover */
+}
+
+/* Active page styling */
+.nav-flex a.active {
+    background-color: #0077cc;      /* Blue background */
+    color: white;                   /* White text */
+}
+
+/* Active page link */
+.active {
+    color: white;
+    background-color: #0077cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Footer alignment */
+footer {
+    text-align: center;
+}
